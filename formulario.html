@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/kyanlogo.png">
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Pastelaria Mandrake</title>
+</head>
+
+<body class="body">
+
+    <nav class="navbar" style="background-color: #2e2e2e;">
+        <div style="background-color: #f0be00;" class="container-fluid">
+        <img class="imgsite" src="img/logokyan_pastel.png">
+         <a class="navbar-brand" href="index.html">...</a>
+         <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
+         <a class="nav-link" href="#">Link</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <form class="d-flex" role="search">
+               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-success" type="submit">Buscar</button>
+             </form>
+           </div>
+         </div>
+       </nav>
+
+    
+      <center><h1>Dados de contato</h1></center>
+      
+      <div class="pai">
+        <table class="caixa" align="center">
+          <td>
+            <form>
+              <h5>Nome completo</h5>
+              <input style="width: 97%;" type="text" placeholder="Digite aqui o seu nome..."><br><br>
+              <h5>E-mail:</h5>
+              <input style="width: 97%;" type="text" placeholder="Digite aqui o seu e-mail..."><br><br>
+              <h5>Telefone de contato:</h5>
+              <input style="width: 97%;" type="number" placeholder="(xx)xxxxx-xxxx" maxlength="13"inputmode="numeric" pattern="[0-9]"><br><br>
+            <!--inputmode="numeric" pattern="[0-9]*" serve para dx apenas numeros como preenchimento-->
+      
+            <center><h3>Selecione uma opção:</h3></center>
+            <select>
+                <option volue="AC">Feedback</option>
+                <option volue="AL">Reclamação</option>
+                <option volue="AP">Denuncia</option>
+             </select><br><br>
+            <h3>Digite sua mensagem</h3>
+            <textarea class="textarea" name="..." id="" cols="30" rows="10"  placeholder="digite aqui sua mensagem..."></textarea>
+        </table>
+      </div>
+   
+
+
+    
+  <footer class="footeer">
+    <div id="footer_content">
+      <div id="footer_contacts">
+        <h1>Bem Vindos...</h1>
+        <p>A Pastelaria Mandrake começou com um simples trabalho
+        escolar, onde os integrantes decidiram fazer
+        uma pastelaria dos caras mais chavósos da cena. 
+        Assim, tornando-se A Pastelaria Mais Chavóso De Todas</p>
+        
+        <div id="footer_social_media">
+          <a href="https://instagram.com/_moura.x_?igshid=OGQ5ZDc2ODk2ZA==" class="footer-link" id="instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/pedrohenrique.mouraxavier" class="footer-link" id="facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" class="footer-link" id="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      
+      </div>
+      <ul class="footer-list">
+        <li>
+          <h3>Contatos</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Whats(11)94002-8922</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Tele(11)92021-1322</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Privê Music(11)96969-1177</a>
+        </li>
+      </ul>
+      
+      <div id="footer_subscribe">
+        <h3>Mande sua duvida</h3>
+        
+         <h6> <p>
+          Tem curiosida em saber como é feito o seu pastel?
+          Mande um e-mail para que possamos sanar suas duvidas
+        </p></h6>
+        
+        <div id="input_group">
+          <input type="e-mail" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer_copyright">
+      &#169
+      2023 Pastelaria Mandrake
+    </div>
+  </footer>  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
